@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+const age = 27;
+const twiceTheage = age * 2;
 void main() {
   runApp(const MyApp());
 }
