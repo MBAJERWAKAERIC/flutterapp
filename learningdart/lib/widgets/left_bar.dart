@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:bmi/constants/app_constants.dart';
 import 'package:flutter/material.dart';
 
