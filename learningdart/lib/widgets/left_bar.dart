@@ -1,26 +1,27 @@
 import 'package:bmi/constants/app_constants.dart';
 import 'package:flutter/material.dart';
 
-class LeftBar extends StatelessWigte {
-  final double BarWidth;
-  const leftBar({Key key, @required this.barWidth}) : super(key: key);
-  
+class LeftBar extends StatelessWidget {
+  final double barWidth;
+
+  const LeftBar({Key key, @required this.barWidth}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
-    return Row( 
+    return Row(
       mainAxisAlignment: MainAxisAlignment.end,
       children: [
         Container(
           height: 25,
           width: barWidth,
           decoration: BoxDecoration(
-            borderadious:borderRadius.Only(
-              topLeft:Radious.circular(20),
-              bottomLeft:Radious.circular(20),
-            )
-          coolor: accentHexColor),
-        )
+              borderRadius: BorderRadius.only(
+                topLeft: Radius.circular(20),
+                bottomLeft: Radius.circular(20),
+              ),
+              color: accentHexColor),
+        ),
       ],
-      );
+    );
   }
 }

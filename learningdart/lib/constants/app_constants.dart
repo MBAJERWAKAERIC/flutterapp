@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-Import 'package:hexcolor/hexcolor.dart';
+import 'package:hexcolor/hexcolor.dart';
 
-final color mainHexColor = HexColor("#1c1c1c");
-final color mainHexColor = HexColor("#FCC91C");
+final Color mainHexColor = HexColor("#1C1C1C");
+final Color accentHexColor = HexColor("#FCC91C");
